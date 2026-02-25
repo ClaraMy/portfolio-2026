@@ -12,9 +12,11 @@ function updateTexts(lang) {
 
 updateTexts(lang);
 
-const languageSelect = document.querySelector('#language-select');
+const buttons = document.querySelectorAll('.lang-btn');
 
-languageSelect.addEventListener('change', function(e) {
-    lang = e.target.value;
-    updateTexts(lang);
-})
+buttons.forEach(function(button) {
+    button.addEventListener('click', () => {
+        const selectedLang = button.getAttribute('data-language');
+        updateTexts(selectedLang);
+    });
+});
