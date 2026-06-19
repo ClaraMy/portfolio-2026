@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Baccalauréat Général, spécialités Sciences Economiques et Sociales et Mathématiques, mention Très Bien",
+        "location": "Lycée George Sand, Domont (95)",
+        "date": "2018 - 2021",
+        "description": "Hormis les connaissances spécifiques à ces spécialités, j'ai développé des compétences analytiques, de raisonnement logique et de résolution de problèmes qui sont des atouts aujourd'hui."
+    },
+    {
+        "id": 2,
+        "title": "BUT Métiers du Multimédia et de l'Internet, parcours développement web et dispositifs interactifs",
+        "location": "Université Gustave Eiffel - IUT, Champs-sur-Marne (77)",
+        "date": "2021 - 2024",
+        "description": "Cette formation m'a permis d'acquérir des compétences dans de nombreux domaines du web comme le développement web, design d'interface, communication, audiovisuel, référencement, accessibilité ou encore la gestion de projet. Ces connaissances me permettent désormais de comprendre et communiquer avec les différents métiers du web."
+    },
+    {
+        "id": 3,
+        "title": "CDD en tant que vendeuse et préparatrice de commande",
+        "location": "Musica, boutique de CD, Paris (75)",
+        "date": "2022",
+        "description": "Cette expérience professionnelle m'a permis de comprendre mes préférences au travail. En étant vendeuse, j'ai découvert que ce qui me procurait une réelle satisfaction était d'aider et de conseiller les clients, en répondant à leurs besoins. Echanger avec eux et les voir repartir avec le sourire étaient les choses les plus gratifiantes de mon travail."
+    },
+    {
+        "id": 4,
+        "title": "Stage et alternance en tant qu'UX/UI Designer et Product Designer",
+        "location": "Bruno, agence web, Rouen (76)",
+        "date": "2023 - 2024",
+        "description": "Cette expérience m'a permis d'avoir des projets concrets et de travailler avec d'autres professionnels. Cela a contribué à améliorer mes compétences en gestion de projet et en relation client. De plus, j'ai approfondi ma maîtrise du logiciel Figma, ce qui me permet désormais d'aider d'autres personnes à l'utiliser. "
+    },
+    {
+        "id": 5,
+        "title": "Master Cultures et Métiers du Web, UFR SHS (Unité de Formation et de Recherche des Sciences Humaines et Sociales)",
+        "location": "Université Gustave Eiffel, Champs-sur-Marne (77)",
+        "date": "2024 - 2026",
+        "description": "Ce Master est une formation pluridisciplinaire qui allie informatique appliquée au web, conduite de projet, sciences humaines et sociales. Ce cursus me permettra d'approfondir mes compétences en sciences humaines et sociales notamment, ce qui me sera utile dans le domaine de l'UX Design pour mieux comprendre les comportements et besoins des utilisateurs."
+    },
+    {
+        "id": 6,
+        "title": "Alternance en tant qu'UX/UI Designer",
+        "location": "Creatiwity, agence web, Paris (75)",
+        "date": "Depuis 2025",
+        "description": "Chez Creatiwity, j'approfondi ma maîtrise du logiciel Figma, notamment sur la réalisation et l'utilisation des design systems. De plus, j'ai eu l'occasion d'apprendre et réaliser des audits d'accessibilité sur ARA (<a href=\"https://ara.numerique.gouv.fr/\" target=\"_blank\" rel=\"noopener\">https://ara.numerique.gouv.fr/</a>). Cela m'a permis de mieux comprendre les enjeux d'accessibilité et de l'intégrer dès la conception des maquettes."
+    }    
+]
