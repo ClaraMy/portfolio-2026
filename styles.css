@@ -167,11 +167,23 @@ nav {
   max-width: 55%;
 }
 
-/* Projects */
+/* Section */
 
-.projects-section {
-  padding: 7.25rem 5rem;
+.data-section {
+  padding: 5rem 7.25rem;
 }
+
+.divider-container {
+  padding: 0 7.25rem;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid var(--color-border);
+  margin: 0;
+}
+
+/* Projects */
 
 .projects-container {
   display: grid;
