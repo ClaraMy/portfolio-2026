@@ -1,5 +1,7 @@
-*, *::before, *::after {
-  box-sizing : border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 /* Font */
@@ -21,38 +23,49 @@
 */
 
 @font-face {
-  font-family: 'CabinetGrotesk-Regular';
-  src: url('assets/fonts/CabinetGrotesk-Regular.woff2') format('woff2'),
-       url('assets/fonts/CabinetGrotesk-Regular.woff') format('woff'),
-       url('assets/fonts/CabinetGrotesk-Regular.ttf') format('truetype');
+  font-family: "CabinetGrotesk-Regular";
+  src:
+    url("assets/fonts/CabinetGrotesk-Regular.woff2") format("woff2"),
+    url("assets/fonts/CabinetGrotesk-Regular.woff") format("woff"),
+    url("assets/fonts/CabinetGrotesk-Regular.ttf") format("truetype");
   font-weight: 400;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
-  font-family: 'CabinetGrotesk-Medium';
-  src: url('assets/fonts/CabinetGrotesk-Medium.woff2') format('woff2'),
-       url('assets/fonts/CabinetGrotesk-Medium.woff') format('woff'),
-       url('assets/fonts/CabinetGrotesk-Medium.ttf') format('truetype');
+  font-family: "CabinetGrotesk-Medium";
+  src:
+    url("assets/fonts/CabinetGrotesk-Medium.woff2") format("woff2"),
+    url("assets/fonts/CabinetGrotesk-Medium.woff") format("woff"),
+    url("assets/fonts/CabinetGrotesk-Medium.ttf") format("truetype");
   font-weight: 500;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
-  font-family: 'CabinetGrotesk-Bold';
-  src: url('assets/fonts/CabinetGrotesk-Bold.woff2') format('woff2'),
-       url('assets/fonts/CabinetGrotesk-Bold.woff') format('woff'),
-       url('assets/fonts/CabinetGrotesk-Bold.ttf') format('truetype');
+  font-family: "CabinetGrotesk-Bold";
+  src:
+    url("assets/fonts/CabinetGrotesk-Bold.woff2") format("woff2"),
+    url("assets/fonts/CabinetGrotesk-Bold.woff") format("woff"),
+    url("assets/fonts/CabinetGrotesk-Bold.ttf") format("truetype");
   font-weight: 700;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
-  font-family: 'CabinetGrotesk-Extrabold';
-  src: url('assets/fonts/CabinetGrotesk-Extrabold.woff2') format('woff2'),
-       url('assets/fonts/CabinetGrotesk-Extrabold.woff') format('woff'),
-       url('assets/fonts/CabinetGrotesk-Extrabold.ttf') format('truetype');
+  font-family: "CabinetGrotesk-Extrabold";
+  src:
+    url("assets/fonts/CabinetGrotesk-Extrabold.woff2") format("woff2"),
+    url("assets/fonts/CabinetGrotesk-Extrabold.woff") format("woff"),
+    url("assets/fonts/CabinetGrotesk-Extrabold.ttf") format("truetype");
   font-weight: 800;
   font-display: swap;
   font-style: normal;
+}
+
+:root {
+  --color-background: #fbfaf6;
+  --color-text: #101010;
+
+  --main-font: "Cabinet Grotesk", sans-serif;
 }
