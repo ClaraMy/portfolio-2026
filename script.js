@@ -40,16 +40,16 @@ async function loadProjects() {
                 loading="lazy"
             >
 
-            <h3>${project.title}</h3>
-
-            <p>${project.shortDescription}</p>
-
-            <button
-                class="project-button"
-                data-id="${project.id}"
-            >
-                Voir les détails du projet
-            </button>
+            <div class="project-information">
+              <h3>${project.title}</h3>
+              <p>${project.shortDescription}</p>
+              <button
+                  class="project-button"
+                  data-id="${project.id}"
+              >
+                  Voir les détails du projet
+              </button>
+            </div>
         `;
 
     projectsContainer.appendChild(projectElement);
