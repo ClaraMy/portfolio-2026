@@ -102,7 +102,7 @@ async function loadCertifications() {
     certificationElement.classList.add("certification-card");
 
     certificationElement.innerHTML = `
-            <h3>${certification.title}</h3>
+            <h3 class="certification-title">${certification.title}</h3>
 
             <p>${certification.description}</p>
 
@@ -110,6 +110,7 @@ async function loadCertifications() {
                 href="${certification.link}"
                 target="_blank"
                 rel="noopener"
+                class="certification-link"
             >
                 Lien vers la certification
             </a>
