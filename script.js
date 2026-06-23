@@ -1,22 +1,120 @@
 let lang = "french"; // Default language
 
 function updateTexts(lang) {
-    fetch(`${lang}.json`).then(function(response) {
-        response.json().then(function(data){
-            Object.keys(data).forEach(function(key) {
-                document.querySelector("#" + key).innerHTML = data[key];
-            }
-        )})
-    })
+  fetch(`${lang}.json`).then(function (response) {
+    response.json().then(function (data) {
+      Object.keys(data).forEach(function (key) {
+        document.querySelector("#" + key).innerHTML = data[key];
+      });
+    });
+  });
 }
 
 updateTexts(lang);
 
-const buttons = document.querySelectorAll('.lang-btn');
+const buttons = document.querySelectorAll(".lang-btn");
 
-buttons.forEach(function(button) {
-    button.addEventListener('click', () => {
-        const selectedLang = button.getAttribute('data-language');
-        updateTexts(selectedLang);
-    });
+buttons.forEach(function (button) {
+  button.addEventListener("click", () => {
+    const selectedLang = button.getAttribute("data-language");
+    updateTexts(selectedLang);
+  });
 });
+
+// Load Projects
+async function loadProjects() {
+  const response = await fetch("./data/projects.json");
+  const projects = await response.json();
+
+  const projectsContainer = document.querySelector(".projects-container");
+
+  projects.forEach((project) => {
+    const projectElement = document.createElement("div");
+
+    projectElement.classList.add("project-card");
+
+    projectElement.innerHTML = `
+            <img
+                src="${project.cover}"
+                alt="${project.title}"
+                loading="lazy"
+            >
+
+            <h3>${project.title}</h3>
+
+            <p>${project.shortDescription}</p>
+
+            <button
+                class="project-button"
+                data-id="${project.id}"
+            >
+                Voir les détails du projet
+            </button>
+        `;
+
+    projectsContainer.appendChild(projectElement);
+  });
+}
+
+loadProjects();
+
+// Load Experiences
+async function loadExperiences() {
+    const response = await fetch("./data/experiences.json");
+    const experiences = await response.json();
+
+    const experiencesContainer = document.querySelector(".experiences-container");
+
+    experiences.forEach((experience) => {
+        const experienceElement = document.createElement("div");
+
+        experienceElement.classList.add("experience-card");
+
+        experienceElement.innerHTML = `
+            <p>${experience.date}</p>
+            <div>
+                <h3>${experience.title}</h3>
+                <p>${experience.location}</p>
+            </div>
+            <p>${experience.description}</p>
+        `;
+
+        experiencesContainer.appendChild(experienceElement);
+    });
+}
+
+loadExperiences();
+
+// Load Certifications
+async function loadCertifications() {
+  const response = await fetch("./data/certifications.json");
+  const certifications = await response.json();
+
+  const certificationsContainer = document.querySelector(
+    ".certifications-container",
+  );
+
+  certifications.forEach((certification) => {
+    const certificationElement = document.createElement("div");
+
+    certificationElement.classList.add("certification-card");
+
+    certificationElement.innerHTML = `
+            <h3>${certification.title}</h3>
+
+            <p>${certification.description}</p>
+
+            <a
+                href="${certification.link}"
+                target="_blank"
+                rel="noopener"
+            >
+                Lien vers la certification
+            </a>
+        `;
+
+    certificationsContainer.appendChild(certificationElement);
+  });
+}
+
+loadCertifications();
