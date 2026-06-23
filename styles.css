@@ -287,3 +287,13 @@ nav {
 .certification-link {
   width: 12%;
 }
+
+/* Contact */
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-text {
+  width: 48%;
+}
