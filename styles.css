@@ -166,3 +166,20 @@ nav {
   font-size: 1.25rem;
   max-width: 55%;
 }
+
+/* Projects */
+
+.projects-section {
+  padding: 7.25rem 5rem;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+}
