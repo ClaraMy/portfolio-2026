@@ -236,3 +236,32 @@ nav {
   flex-direction: column;
   gap: 0.5rem;
 }
+
+/* Experiences */
+
+.experiences-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.experience-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.experience-date {
+ min-width: 9%;
+}
+
+.experience-header {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  padding: 1rem 0;
+}
+
+.experience-description {
+  width: 50%;
+}

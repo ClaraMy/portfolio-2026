@@ -71,12 +71,14 @@ async function loadExperiences() {
         experienceElement.classList.add("experience-card");
 
         experienceElement.innerHTML = `
-            <p>${experience.date}</p>
-            <div>
+            <div class="experience-date">
+              <p>${experience.date}</p>
+            </div>
+            <div class="experience-header">
                 <h3>${experience.title}</h3>
                 <p>${experience.location}</p>
             </div>
-            <p>${experience.description}</p>
+            <p class="experience-description">${experience.description}</p>
         `;
 
         experiencesContainer.appendChild(experienceElement);
