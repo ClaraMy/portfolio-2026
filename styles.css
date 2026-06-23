@@ -101,6 +101,18 @@ ul {
   width: 1px;
 }
 
+/* Heading */
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
 /* Navigation */
 
 header {
