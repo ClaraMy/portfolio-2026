@@ -85,6 +85,10 @@ ul {
   padding: 0;
 }
 
+.highlight {
+  font-weight: 700;
+}
+
 .visually-hidden {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);
@@ -133,4 +137,20 @@ nav {
 
 .nav-links a:hover {
   text-decoration: underline;
+}
+
+/* Hero */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.hero-quote {
+  font-size: 1.25rem;
+  max-width: 55%;
 }
