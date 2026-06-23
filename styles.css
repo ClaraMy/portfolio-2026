@@ -216,6 +216,10 @@ nav {
   width: 48%;
 }
 
+.resume {
+  padding: 2rem 0;
+}
+
 .about-image-container {
   display: flex;
   flex-direction: column;
