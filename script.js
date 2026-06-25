@@ -143,26 +143,26 @@ button.addEventListener("click", () => {
 });
 
 video.addEventListener("play", () => {
-  button.style.opacity = "0";
+    button.classList.add("hidden");
 });
 
 video.addEventListener("pause", () => {
-  button.style.opacity = "1";
+    button.classList.remove("hidden");
 });
 
 video.addEventListener("ended", () => {
-  button.style.opacity = "1";
-  button.textContent = "▶";
+    button.classList.remove("hidden");
+    button.textContent = "▶";
 });
 
 videoContainer.addEventListener("mouseenter", () => {
   if (!video.paused) {
-    button.style.opacity = "1";
+    button.classList.remove("hidden");
   }
 });
 
 videoContainer.addEventListener("mouseleave", () => {
   if (!video.paused) {
-    button.style.opacity = "0";
+    button.classList.add("hidden");
   }
 });

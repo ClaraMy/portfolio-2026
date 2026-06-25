@@ -356,6 +356,12 @@ nav {
   background-color: var(--color-background-primary);
   cursor: pointer;
   transition: opacity 0.5s ease;
+  pointer-events: auto;
+}
+
+#button-play.hidden {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .video-text{
