@@ -7,8 +7,6 @@ L'objectif de ce site est de présenter mon profil, mes compétences et une sél
 
 Le site est développé en HTML, CSS et JavaScript et est hébergé sur GitHub Pages.
 
----
-
 ## Technologies utilisées
 * HTML
 * CSS
@@ -16,8 +14,6 @@ Le site est développé en HTML, CSS et JavaScript et est hébergé sur GitHub P
 * JSON
 * Git & GitHub
 * GitHub Pages
-
----
 
 ## Accessibilité
 Une attention particulière a été portée à l'accessibilité du site :
@@ -33,14 +29,10 @@ Plus d'informations dans cet article sur Medium : https://medium.com/web-dev-sur
 * contrastes de couleurs vérifiés ;
 * information structurée par l’utilisation appropriée de titres (`h1`, `h2`, `h3`)
 
----
-
 ## Licence
 Ce projet est réalisé à des fins pédagogiques.
 
 Les contenus (textes, visuels, maquettes, vidéos et projets) restent la propriété de leur auteur et ne peuvent être réutilisés sans autorisation.
-
----
 
 ## Lien
 Le portfolio est accessible à l'adresse suivante :
