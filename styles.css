@@ -169,6 +169,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
   height: 90vh;
   text-align: center;
 }
@@ -220,15 +221,15 @@ nav {
 }
 
 .project-button {
-    background: none;
-    border: none;
-    padding: 0;
-    align-self: flex-start;
-    font-family: var(--main-font);
-    font-size: 1rem;
-    text-decoration: underline;
-    color: var(--color-text-primary);
-    cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  align-self: flex-start;
+  font-family: var(--main-font);
+  font-size: 1rem;
+  text-decoration: underline;
+  color: var(--color-text-primary);
+  cursor: pointer;
 }
 
 /* About */
@@ -288,7 +289,7 @@ nav {
 }
 
 .experience-date {
- min-width: 9%;
+  min-width: 9%;
 }
 
 .experience-header {
@@ -342,9 +343,9 @@ nav {
 .controls {
   display: flex;
   align-items: center;
+  justify-content: center;
   position: absolute;
-  bottom: 48%;
-  left: 48%;
+  inset: 0;
 }
 
 #button-play {
@@ -364,12 +365,16 @@ nav {
   pointer-events: none;
 }
 
-.video-text{
+.video-text {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 1rem;
+}
+
+.video-text p {
+  text-align: center;
 }
 
 /* Contact */
@@ -427,4 +432,107 @@ footer {
 .rights {
   text-align: center;
   color: var(--color-text-secondary);
+}
+
+/* MEDIA QUERY */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .hero-quote {
+    font-size: 1rem;
+  }
+
+  .data-section {
+    padding: 5rem 3rem;
+  }
+
+  .projects-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-container {
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+
+  .about-text {
+    width: 100%;
+  }
+
+  .about-image-container {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .experiences-container {
+    gap: 3rem;
+  }
+
+  .experience-card, .certification-card {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .experience-date, .experience-header, .experience-description {
+    width: 100%;
+  }
+
+  .certification-link {
+    width: 100%;
+  }
+
+  .footer-top-section {
+    padding: 5rem 3rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .hero {
+    height: 60vh;
+    padding: 5.5rem 1.5rem 0;
+  }
+
+  .hero-quote {
+    max-width: 90%;
+  }
+
+  .data-section {
+    padding: 3rem 1.5rem;
+  }
+
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+
+  .about-image-container {
+    flex-direction: column-reverse;
+    gap: 2.5rem;
+  }
+
+  .skills {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .contact-text {
+    width: 100%;
+  }
+
+  .footer-top-section {
+    padding: 3rem 1.5rem;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .footer-right-section {
+    width: 100%;
+    gap: 2.5rem;
+  }
 }
