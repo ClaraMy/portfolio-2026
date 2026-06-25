@@ -442,6 +442,10 @@ footer {
 
 /* Tablet */
 @media (max-width: 1024px) {
+  nav {
+    padding: 1.5rem 3rem;
+  }
+
   .divider-container {
     padding: 0 3rem;
   }
@@ -500,6 +504,10 @@ footer {
 
 /* Mobile */
 @media (max-width: 768px) {
+  nav {
+    padding: 1.5rem;
+  }
+
   .divider-container {
     padding: 0 1.5rem;
   }
