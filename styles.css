@@ -277,7 +277,7 @@ nav {
 
 .experiences-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   gap: 2.5rem;
 }
 
@@ -305,7 +305,7 @@ nav {
 
 .certifications-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   gap: 2.5rem;
 }
 

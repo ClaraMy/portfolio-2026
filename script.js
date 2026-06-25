@@ -26,6 +26,8 @@ async function loadProjects() {
   const response = await fetch("./data/projects.json");
   const projects = await response.json();
 
+  projects.reverse();
+
   const projectsContainer = document.querySelector(".projects-container");
 
   projects.forEach((project) => {
@@ -60,17 +62,17 @@ loadProjects();
 
 // Load Experiences
 async function loadExperiences() {
-    const response = await fetch("./data/experiences.json");
-    const experiences = await response.json();
+  const response = await fetch("./data/experiences.json");
+  const experiences = await response.json();
 
-    const experiencesContainer = document.querySelector(".experiences-container");
+  const experiencesContainer = document.querySelector(".experiences-container");
 
-    experiences.forEach((experience) => {
-        const experienceElement = document.createElement("div");
+  experiences.forEach((experience) => {
+    const experienceElement = document.createElement("div");
 
-        experienceElement.classList.add("experience-card");
+    experienceElement.classList.add("experience-card");
 
-        experienceElement.innerHTML = `
+    experienceElement.innerHTML = `
             <div class="experience-date">
               <p>${experience.date}</p>
             </div>
@@ -81,8 +83,8 @@ async function loadExperiences() {
             <p class="experience-description">${experience.description}</p>
         `;
 
-        experiencesContainer.appendChild(experienceElement);
-    });
+    experiencesContainer.appendChild(experienceElement);
+  });
 }
 
 loadExperiences();
@@ -129,58 +131,38 @@ const button = document.querySelector("#button-play");
 const videoContainer = document.querySelector(".video-container");
 
 button.addEventListener("click", () => {
-
-    if(video.paused){
-        video.play();
-        button.textContent = "❚❚";
-        button.setAttribute(
-            "aria-label",
-            "Mettre la vidéo en pause"
-        );
-    } else {
-        video.pause();
-        button.textContent = "▶";
-        button.setAttribute(
-            "aria-label",
-            "Lancer la vidéo"
-        );
-    }
+  if (video.paused) {
+    video.play();
+    button.textContent = "❚❚";
+    button.setAttribute("aria-label", "Mettre la vidéo en pause");
+  } else {
+    video.pause();
+    button.textContent = "▶";
+    button.setAttribute("aria-label", "Lancer la vidéo");
+  }
 });
 
-// video.addEventListener("play", () => {
-//     button.classList.add("hidden");
-// });
-
-// video.addEventListener("pause", () => {
-//     button.classList.remove("hidden");
-// });
-
-// video.addEventListener("ended", () => {
-//     button.classList.remove("hidden");
-//     button.textContent = "▶";
-// });
-
 video.addEventListener("play", () => {
-    button.style.opacity = "0";
+  button.style.opacity = "0";
 });
 
 video.addEventListener("pause", () => {
-    button.style.opacity = "1";
+  button.style.opacity = "1";
 });
 
 video.addEventListener("ended", () => {
-    button.style.opacity = "1";
-    button.textContent = "▶";
+  button.style.opacity = "1";
+  button.textContent = "▶";
 });
 
 videoContainer.addEventListener("mouseenter", () => {
-    if (!video.paused) {
-        button.style.opacity = "1";
-    }
+  if (!video.paused) {
+    button.style.opacity = "1";
+  }
 });
 
 videoContainer.addEventListener("mouseleave", () => {
-    if (!video.paused) {
-        button.style.opacity = "0";
-    }
+  if (!video.paused) {
+    button.style.opacity = "0";
+  }
 });
