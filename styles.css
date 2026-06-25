@@ -131,6 +131,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 10000;
 }
 
 nav {
@@ -320,6 +321,48 @@ nav {
 
 .certification-link {
   width: 12%;
+}
+
+/* CV Video */
+#video-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.video-container {
+  position: relative;
+}
+
+.video-container video {
+  width: 100%;
+  object-fit: cover;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 48%;
+  left: 48%;
+}
+
+#video-controls {
+  width: 4rem;
+  height: 4rem;
+  border: none;
+  border-radius: 50%;
+  font-size: 2rem;
+  background-color: var(--color-background-primary);
+  cursor: pointer;
+}
+
+.video-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
 /* Contact */
