@@ -536,4 +536,13 @@ footer {
     width: 100%;
     gap: 2.5rem;
   }
+
+  .social-links {
+    flex-wrap: wrap;
+    gap: 1rem 0;
+  }
+
+  .social-links a {
+    width: 50%;
+  }
 }
