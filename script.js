@@ -126,6 +126,7 @@ loadCertifications();
 
 const video = document.querySelector("#cv-video");
 const button = document.querySelector("#button-play");
+const videoContainer = document.querySelector(".video-container");
 
 button.addEventListener("click", () => {
 
@@ -143,5 +144,43 @@ button.addEventListener("click", () => {
             "aria-label",
             "Lancer la vidéo"
         );
+    }
+});
+
+// video.addEventListener("play", () => {
+//     button.classList.add("hidden");
+// });
+
+// video.addEventListener("pause", () => {
+//     button.classList.remove("hidden");
+// });
+
+// video.addEventListener("ended", () => {
+//     button.classList.remove("hidden");
+//     button.textContent = "▶";
+// });
+
+video.addEventListener("play", () => {
+    button.style.opacity = "0";
+});
+
+video.addEventListener("pause", () => {
+    button.style.opacity = "1";
+});
+
+video.addEventListener("ended", () => {
+    button.style.opacity = "1";
+    button.textContent = "▶";
+});
+
+videoContainer.addEventListener("mouseenter", () => {
+    if (!video.paused) {
+        button.style.opacity = "1";
+    }
+});
+
+videoContainer.addEventListener("mouseleave", () => {
+    if (!video.paused) {
+        button.style.opacity = "0";
     }
 });
