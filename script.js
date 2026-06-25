@@ -121,3 +121,27 @@ async function loadCertifications() {
 }
 
 loadCertifications();
+
+// Video player
+
+const video = document.querySelector("#cv-video");
+const button = document.querySelector("#button-play");
+
+button.addEventListener("click", () => {
+
+    if(video.paused){
+        video.play();
+        button.textContent = "❚❚";
+        button.setAttribute(
+            "aria-label",
+            "Mettre la vidéo en pause"
+        );
+    } else {
+        video.pause();
+        button.textContent = "▶";
+        button.setAttribute(
+            "aria-label",
+            "Lancer la vidéo"
+        );
+    }
+});
