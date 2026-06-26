@@ -44,6 +44,12 @@
     gap: 0.5rem;
 }
 
+.project-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 .project-description {
     display: flex;
     flex-direction: column;
