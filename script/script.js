@@ -8,26 +8,41 @@ async function loadProjects() {
   const projectsContainer = document.querySelector(".projects-container");
 
   projects.forEach((project) => {
-    const projectElement = document.createElement("div");
+    const projectCard = document.createElement("div");
+    projectCard.classList.add("project-card");
 
-    projectElement.classList.add("project-card");
+    const img = document.createElement("img");
+    img.src = project.cover;
+    img.ariaHidden = "true";
+    img.alt = project.title;
 
-    projectElement.innerHTML = `
-            <img
-                src="${project.cover}"
-                alt="${project.title}"
-            >
+    const information = document.createElement("div");
+    information.classList.add("project-information");
 
-            <div class="project-information">
-              <h3>${project.title}</h3>
-              <p>${project.shortDescription}</p>
-              <a href="project.html?id=${project.id}">
-                  Voir les détails du projet
-              </a>
-            </div>
-        `;
+    const title = document.createElement("h3");
+    title.textContent = project.title;
 
-    projectsContainer.appendChild(projectElement);
+    const description = document.createElement("p");
+    description.textContent = project.shortDescription;
+
+    const link = document.createElement("a");
+    link.href = `project.html?id=${project.id}`;
+    link.textContent = "Voir les détails du projet";
+
+    const srOnly = document.createElement("span");
+    srOnly.classList.add("visually-hidden");
+    srOnly.textContent = ` : ${project.title}`;
+
+    link.appendChild(srOnly);
+
+    information.appendChild(title);
+    information.appendChild(description);
+    information.appendChild(link);
+
+    projectCard.appendChild(img);
+    projectCard.appendChild(information);
+
+    projectsContainer.appendChild(projectCard);
   });
 }
 
@@ -41,22 +56,38 @@ async function loadExperiences() {
   const experiencesContainer = document.querySelector(".experiences-container");
 
   experiences.forEach((experience) => {
-    const experienceElement = document.createElement("div");
+    const experienceCard = document.createElement("div");
+    experienceCard.classList.add("experience-card");
 
-    experienceElement.classList.add("experience-card");
+    const dateContainer = document.createElement("div");
+    dateContainer.classList.add("experience-date");
 
-    experienceElement.innerHTML = `
-            <div class="experience-date">
-              <p>${experience.date}</p>
-            </div>
-            <div class="experience-header">
-                <h3>${experience.title}</h3>
-                <p>${experience.location}</p>
-            </div>
-            <p class="experience-description">${experience.description}</p>
-        `;
+    const date = document.createElement("p");
+    date.textContent = experience.date;
 
-    experiencesContainer.appendChild(experienceElement);
+    dateContainer.appendChild(date);
+
+    const experienceHeader = document.createElement("div");
+    experienceHeader.classList.add("experience-header");
+
+    const title = document.createElement("h3");
+    title.textContent = experience.title;
+
+    const location = document.createElement("p");
+    location.textContent = experience.location;
+
+    experienceHeader.appendChild(title);
+    experienceHeader.appendChild(location);
+
+    const description = document.createElement("p");
+    description.classList.add("experience-description");
+    description.textContent = experience.description;
+
+    experienceCard.appendChild(dateContainer);
+    experienceCard.appendChild(experienceHeader);
+    experienceCard.appendChild(description);
+
+    experiencesContainer.appendChild(experienceCard);
   });
 }
 
@@ -72,29 +103,35 @@ async function loadCertifications() {
   );
 
   certifications.forEach((certification) => {
-    const certificationElement = document.createElement("div");
+    const certificationCard = document.createElement("div");
+    certificationCard.classList.add("certification-card");
 
-    certificationElement.classList.add("certification-card");
+    const title = document.createElement("h3");
+    title.classList.add("certification-title");
+    title.textContent = certification.title;
 
-    certificationElement.innerHTML = `
-            <h3 class="certification-title">${certification.title}</h3>
+    const description = document.createElement("p");
+    description.textContent = certification.description;
 
-            <p>${certification.description}</p>
+    const link = document.createElement("a");
+    link.href = certification.link;
+    link.target = "_blank";
+    link.rel = "noopener";
+    link.classList.add("certification-link");
 
-            <a
-                href="${certification.link}"
-                target="_blank"
-                rel="noopener"
-                class="certification-link"
-            >
-                Lien vers la certification
-                <span class="visually-hidden">
-                (ouvre dans une nouvelle fenêtre)</span
-              >
-            </a>
-        `;
+    link.append("Lien vers la certification");
 
-    certificationsContainer.appendChild(certificationElement);
+    const srOnly = document.createElement("span");
+    srOnly.classList.add("visually-hidden");
+    srOnly.textContent = " (ouvre dans une nouvelle fenêtre)";
+
+    link.appendChild(srOnly);
+
+    certificationCard.appendChild(title);
+    certificationCard.appendChild(description);
+    certificationCard.appendChild(link);
+
+    certificationsContainer.appendChild(certificationCard);
   });
 }
 
@@ -119,16 +156,16 @@ button.addEventListener("click", () => {
 });
 
 video.addEventListener("play", () => {
-    button.classList.add("hidden");
+  button.classList.add("hidden");
 });
 
 video.addEventListener("pause", () => {
-    button.classList.remove("hidden");
+  button.classList.remove("hidden");
 });
 
 video.addEventListener("ended", () => {
-    button.classList.remove("hidden");
-    button.textContent = "▶";
+  button.classList.remove("hidden");
+  button.textContent = "▶";
 });
 
 videoContainer.addEventListener("mouseenter", () => {

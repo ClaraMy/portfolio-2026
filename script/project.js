@@ -9,7 +9,6 @@ const projectInfoText = document.querySelector(".project-info-text");
 const projectLinks = document.querySelector(".project-links");
 
 function showProject(project) {
-
   document.title = `${project.title} - Many Clara Portfolio`;
 
   // show hero
@@ -19,13 +18,27 @@ function showProject(project) {
   projectBanner.alt = project.title;
 
   // show information
-  projectInfoText.innerHTML = `
-        <p><span class="highlight">Nom :</span> ${project.title}</p>
-        <p><span class="highlight">Date :</span> du ${project.infos.dateStart} au ${project.infos.dateEnd}</p>
-        <p><span class="highlight">Type :</span> ${project.infos.type}</p>
-        <p><span class="highlight">Contexte :</span> ${project.infos.context}</p>
-        <p><span class="highlight">Logiciels :</span> ${project.infos.tools.join(", ")}</p>
-    `;
+  const infos = [
+    { label: "Nom", value: project.title },
+    {
+      label: "Date",
+      value: `du ${project.infos.dateStart} au ${project.infos.dateEnd}`,
+    },
+    { label: "Type", value: project.infos.type },
+    { label: "Contexte", value: project.infos.context },
+    { label: "Logiciels", value: project.infos.tools.join(", ") },
+  ];
+
+  infos.forEach(info => {
+    const p = document.createElement("p");
+    const span = document.createElement("span");
+    span.classList.add("highlight");
+    span.textContent = `${info.label} : `;
+    p.appendChild(span);
+    p.append(info.value);
+
+    projectInfoText.appendChild(p);
+});
 
   // show links
   if (project.links) {
