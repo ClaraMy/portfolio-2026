@@ -63,6 +63,7 @@ function showProject(project) {
       img.src = block.src;
       img.ariaHidden = "true";
       img.alt = block.alt;
+      img.loading = "lazy";
       section.appendChild(img);
     }
 

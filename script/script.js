@@ -39,7 +39,6 @@ async function loadProjects() {
             <img
                 src="${project.cover}"
                 alt="${project.title}"
-                loading="lazy"
             >
 
             <div class="project-information">
