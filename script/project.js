@@ -4,7 +4,7 @@ const projectShortDescription = document.querySelector(
   "#project-short-description",
 );
 const projectBanner = document.querySelector("#project-banner");
-const projectContent = document.querySelector(".project-content");
+const projectDescription = document.querySelector(".project-description");
 const projectInfoText = document.querySelector(".project-info-text");
 const projectLinks = document.querySelector(".project-links");
 
@@ -72,7 +72,7 @@ function showProject(project) {
       a.target = "_blank";
       a.rel = "noopener";
       a.textContent = block.url;
-      
+
       section.appendChild(a);
     }
 
@@ -94,7 +94,7 @@ function showProject(project) {
       section.appendChild(ul);
     }
 
-    projectContent.appendChild(section);
+    projectDescription.appendChild(section);
   });
 }
 
@@ -108,7 +108,7 @@ async function loadProject() {
   const project = projects.find((project) => project.id === id);
 
   if (!project) {
-    projectContent.innerHTML = "<p>Projet introuvable.</p>";
+    projectTitle.textContent = "Projet introuvable.";
     return;
   }
 
