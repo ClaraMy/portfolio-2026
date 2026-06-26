@@ -343,6 +343,7 @@ nav {
 
 .video-container {
   position: relative;
+  background-color: black;
 }
 
 .video-container video {
