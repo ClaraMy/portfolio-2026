@@ -45,14 +45,8 @@ async function loadProjects() {
             <div class="project-information">
               <h3>${project.title}</h3>
               <p>${project.shortDescription}</p>
-              <button
-                  class="project-button"
-                  data-id="${project.id}"
-              >
-                  Voir les détails du projet
-              </button>
               <a href="project.html?id=${project.id}">
-                  En savoir plus
+                  Voir les détails du projet
               </a>
             </div>
         `;
