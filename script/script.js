@@ -20,7 +20,7 @@ burger.addEventListener("click", openMenu);
 closeBtn.addEventListener("click", closeMenu);
 overlay.addEventListener("click", closeMenu);
 
-document.querySelectorAll(".side-panel a").forEach(link => {
+document.querySelectorAll(".side-panel a").forEach((link) => {
   link.addEventListener("click", closeMenu);
 });
 
@@ -37,10 +37,17 @@ async function loadProjects() {
     const projectCard = document.createElement("div");
     projectCard.classList.add("project-card");
 
+    const imageLink = document.createElement("a");
+    imageLink.href = `project.html?id=${project.id}`;
+    imageLink.setAttribute("aria-label", `Voir le projet ${project.title}`);
+
     const img = document.createElement("img");
     img.src = project.cover;
-    img.ariaHidden = "true";
+    img.setAttribute("aria-hidden", "true");
     img.alt = project.title;
+    img.loading = "lazy";
+
+    imageLink.appendChild(img);
 
     const information = document.createElement("div");
     information.classList.add("project-information");
@@ -65,7 +72,7 @@ async function loadProjects() {
     information.appendChild(description);
     information.appendChild(link);
 
-    projectCard.appendChild(img);
+    projectCard.appendChild(imageLink);
     projectCard.appendChild(information);
 
     projectsContainer.appendChild(projectCard);
