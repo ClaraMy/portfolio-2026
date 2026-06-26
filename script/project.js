@@ -9,7 +9,16 @@ const projectInfoText = document.querySelector(".project-info-text");
 const projectLinks = document.querySelector(".project-links");
 
 function showProject(project) {
+  // edit title page
   document.title = `${project.title} - Many Clara Portfolio`;
+
+  //   edit meta description
+  const metaDescription = document.querySelector(`meta[name="description"]`);
+
+  metaDescription.setAttribute(
+    "content",
+    `${project.title} : ${project.shortDescription}`,
+  );
 
   // show hero
   projectTitle.textContent = project.title;
