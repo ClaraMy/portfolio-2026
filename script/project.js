@@ -1,6 +1,6 @@
 // set up data
 const projectTitle = document.querySelector("#project-title");
-const projectSubtitle = document.querySelector("#project-subtitle");
+const projectShortDescription = document.querySelector("#project-short-description");
 const projectBanner = document.querySelector("#project-banner");
 const projectContent = document.querySelector(".project-content");
 const projectInfoText = document.querySelector(".project-info-text");
@@ -9,8 +9,8 @@ const projectLinks = document.querySelector(".project-links");
 function showProject(project) {
   // show hero
   projectTitle.textContent = project.title;
-  projectSubtitle.textContent = project.shortDescription;
-  projectBanner.src = project.image;
+  projectShortDescription.textContent = project.shortDescription;
+  projectBanner.src = project.banner;
   projectBanner.alt = project.title;
 
   // show information
