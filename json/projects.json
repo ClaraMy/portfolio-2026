@@ -73,29 +73,63 @@
     "cover": "assets/images/projects/prime-video/prime-video_cover.webp",
     "shortDescription": "Refonte fictive de l'expérience utilisateur de la plateforme Prime Video sur desktop, réalisée en compagnie de 3 autres étudiants.",
 
-    "details": {
-      "dateStart": "2023-01-22",
-      "dateEnd": "2023-03-22",
-      "category": ["UX Design"],
-      "type": "Projet scolaire",
-      "teamSize": 4,
-      "tools": ["Figma"],
-      "links": {
-        "figma": "https://www.figma.com/design/8gLKvast8qZP4dLP3xhxzK/UX---Prime-Video?node-id=1-2&t=ve9JFjZWik8Huiwc-1",
-        "github": "",
-        "website": ""
-      },
+    "banner": "assets/images/projects/prime-video/prime-video_banner.webp",
 
-      "description": {
-        "context": "Dans le cadre du cours de Product Design durant ma deuxième année en BUT MMI, j'ai réalisé une refonte de la plateforme Prime Video avec trois autres camarades.",
-        "goal": "",
-        "process": "Nous avons commencé par écrire un guide pour mener des entretiens à notre cible d'utilisateurs : les jeunes adultes, adultes et la famille. Nous avons ainsi pu créer un persona détaillé et élaborer des parcours utilisateur.\n\nAprès avoir analysé la concurrence et identifié des besoins chez les utilisateurs, nous avons commencé à réfléchir à des solutions et à créer des prototypes pour les faire tester et les valider.\n\nNous avons identifié trois axes d'amélioration pour l'expérience utilisateur :\n\n• La fonctionnalité de marque-page permettant aux utilisateurs de sauvegarder leurs moments préférés.\n\n• La possibilité de partager leurs avis immédiatement après le visionnage.\n\n• L'intégration de la réalité virtuelle pour offrir une expérience plus immersive.",
-        "difficulties": "",
-        "results": "",
-        "learning": "Ce projet m'a permis d'approfondir mes compétences sur Figma et de mettre en application les méthodes que nous avions vues en cours de Product Design. J'ai également réalisé l'importance du contexte d'utilisation d'une application pour concevoir une expérience utilisateur réussie. ",
-        "remake": "Si c'était à refaire, j'aurais consacré davantage de temps pour améliorer les prototypes et rendre la présentation du Figma plus organisée. De plus, j'aurais souhaité mener davantage d'entretiens avec différents profils d'utilisateurs."
+    "infos": {
+      "dateStart": "22 janvier 2023",
+      "dateEnd": "22 mars 2023",
+      "type": "Redesign d'une application desktop",
+      "context": "Projet de groupe de 4 étudiants en 2ème année de BUT MMI en cours de Product Design",
+      "tools": ["Figma"],
+
+      "category": ["UX Design"],
+      "teamSize": 4
+    },
+
+    "links": [
+      {
+        "label": "Figma",
+        "url": "https://www.figma.com/design/8gLKvast8qZP4dLP3xhxzK/UX---Prime-Video?node-id=1-2&t=ve9JFjZWik8Huiwc-1"
       }
-    }
+    ],
+
+    "content": [
+      {
+        "type": "text",
+        "text": "Dans le cadre du cours de Product Design durant ma deuxième année en BUT MMI, j'ai réalisé une refonte de la plateforme Prime Video avec trois autres camarades."
+      },
+      {
+        "type": "image",
+        "src": "/assets/images/projects/prime-video/prime-video_persona.webp",
+        "alt": "Prime Video Persona"
+      },
+      {
+        "type": "text",
+        "text": "Après avoir analysé la concurrence et identifié des besoins chez les utilisateurs, nous avons commencé à réfléchir à des solutions, et à créer des prototypes pour les faire tester et les valider."
+      },
+      {
+        "type": "list",
+        "text": "Nous avons identifié trois axes d'amélioration pour l'expérience utilisateur :",
+        "items": [
+          "la fonctionnalité de marque-page, permettant aux utilisateurs de sauvegarder leurs moments préférés dans une série ou un film et de les retrouver à n'importe quel moment ;",
+          "la possibilité pour les utilisateurs de partager leurs avis immédiatement après le visionnage, ce qui permet d'échanger avec les autres utilisateurs ;",
+          "l'idée d'intégrer de la réalité virtuelle pour offrir une expérience encore plus immersive."
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/assets/images/projects/prime-video/prime-video_solutions.webp",
+        "alt": "Prime Video Solutions"
+      },
+      {
+        "type": "text",
+        "text": "Ce projet m'a permis d'approfondir mes compétences sur Figma et de mettre en application les méthodes que nous avions vues en cours de Product Design. J'ai également réalisé l'importance du contexte d'utilisation d'une application pour concevoir une expérience utilisateur réussie."
+      },
+      {
+        "type": "text",
+        "text": "Si c'était à refaire, j'aurais consacré davantage de temps pour améliorer les prototypes et rendre la présentation du Figma plus organisée. De plus, j'aurais souhaité mener davantage d'entretiens avec différents profils d'utilisateurs."
+      }
+    ]
   },
   {
     "id": 3,
@@ -103,29 +137,62 @@
     "cover": "assets/images/projects/primary/primary_cover.webp",
     "shortDescription": "Design de l'application mobile de Primary, une entreprise qui conçoit des cabinets médicaux, réalisé avec mes collègues de chez Bruno.",
 
-    "details": {
-      "dateStart": "2023-09-11",
-      "dateEnd": "2023-10-04",
-      "category": ["UI Design", "Design System"],
-      "type": "Projet professionnel",
-      "teamSize": 4,
-      "tools": ["Figma"],
-      "links": {
-        "figma": "",
-        "github": "",
-        "website": "https://www.helloprimary.care/"
-      },
+    "banner": "assets/images/projects/primary/primary_banner.webp",
 
-      "description": {
-        "context": "Lors de mon alternance chez Bruno, un projet m'a été confié : réaliser la maquette de l'application mobile de Primary, une entreprise qui conçoit des cabinets médicaux en allianthumain et technologie.",
-        "goal": "",
-        "process": "Une fois le branding de la marque achevé, j'ai réalisé l'application mobile tout en respectant la direction artistique qui avait été définie. Je me suis occupée de faire les différents écrans, ainsi que l'UI Kit en parallèle. En amont, le client avait travaillé la partie de recherche, d'idéation en réalisant les wireframes, je me suis ainsi basée sur ses maquettes pour concevoir les écrans correspondants. Quelques écrans d'exemple de l'application qui ont été réalisé : \n\n• Page d'onboarding ; \n\n• Page d'accueil ; \n\n• Page type de rendez-vous (avec notification)",
-        "difficulties": "",
-        "results": "",
-        "learning": "Ce projet m'a permis de développer mes compétences dans la conception d'interfaces mobiles et dans l'organisation du travail sur Figma. J'ai appris à mieux structurer mon espace de travail sur Figma ce qui a permis de faciliter la collaboration avec les autres membres de l'équipe. De plus, j'ai acquis une expérience dans la conception de produits mobiles, qui m'a permis de comprendre les spécificités et les bonnes pratiques de conception pour le mobile.",
-        "remake": "Si ce projet était à refaire, j'aurais aimé réaliser des prototypes. Cela aurait permis au client de mieux visualiser le rendu final de l'application et de mieux comprendre les interactions et les fonctionnalités de celle-ci."
+    "infos": {
+      "dateStart": "11 septembre 2023",
+      "dateEnd": "4 octobre 2023",
+      "type": "Design d'une application mobile",
+      "context": "Projet professionnel lors de mon alternance à l'agence Bruno",
+      "tools": ["Figma"],
+
+      "category": ["UI Design", "Design System"],
+      "teamSize": 4
+    },
+
+    "links": [
+      {
+        "label": "vers l'étude de cas",
+        "url": "https://www.bruno.co/primary"
+      },
+      {
+        "label": "du site",
+        "url": "https://www.helloprimary.care/"
       }
-    }
+    ],
+
+    "content": [
+      {
+        "type": "text",
+        "text": "Lors de mon alternance chez Bruno, un projet m'a été confié : réaliser la maquette de l'application mobile de Primary, une entreprise qui conçoit des cabinets médicaux en allianthumain et technologie."
+      },
+      {
+        "type": "text",
+        "text": "Une fois le branding de la marque achevé, j'ai réalisé l'application mobile tout en respectant la direction artistique qui avait été définie. Je me suis occupée de faire les différents écrans, ainsi que l'UI Kit en parallèle. En amont, le client avait travaillé la partie de recherche, d'idéation en réalisant les wireframes, je me suis ainsi basée sur ses maquettes pour concevoir les écrans correspondants."
+      },
+      {
+        "type": "list",
+        "text": "Quelques écrans d'exemple de l'application qui ont été réalisé :",
+        "items": [
+          "Page d'onboarding ;",
+          "Page d'accueil ;",
+          "Page type de rendez-vous (avec notification)"
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/assets/images/projects/primary/primary_mobile-screens.webp",
+        "alt": "Prime Video Mobile Exemples"
+      },
+      {
+        "type": "text",
+        "text": "Ce projet m'a permis de développer mes compétences dans la conception d'interfaces mobiles et dans l'organisation du travail sur Figma. J'ai appris à mieux structurer mon espace de travail sur Figma ce qui a permis de faciliter la collaboration avec les autres membres de l'équipe. De plus, j'ai acquis une expérience dans la conception de produits mobiles, qui m'a permis de comprendre les spécificités et les bonnes pratiques de conception pour le mobile."
+      },
+       {
+        "type": "text",
+        "text": "Si ce projet était à refaire, j'aurais aimé réaliser des prototypes. Cela aurait permis au client de mieux visualiser le rendu final de l'application et de mieux comprendre les interactions et les fonctionnalités de celle-ci."
+      }
+    ]
   },
   {
     "id": 4,
@@ -133,29 +200,70 @@
     "cover": "assets/images/projects/windmap/windmap_cover.webp",
     "shortDescription": "Identité visuelle et design d'une application mobile fictive de météo communautaire, réalisée avec moi-même.",
 
-    "details": {
-      "dateStart": "2024-12-09",
-      "dateEnd": "2024-12-13",
-      "category": ["UI Design", "Design System", "Identité visuelle"],
-      "type": "Projet personnel",
-      "teamSize": 1,
-      "tools": ["Figma"],
-      "links": {
-        "figma": "https://www.figma.com/design/OCF79XKxMIqFazR47pKLTr/WINDMAP---Many-Clara?node-id=48-867&t=MdCeQx9GTx9qKcMj-1",
-        "github": "",
-        "website": ""
-      },
+    "banner": "assets/images/projects/windmap/windmap_banner.webp",
 
-      "description": {
-        "context": "Ce projet a été réalisé dans le cadre du cours de design graphique et interactif. Le sujet consistait à concevoir une application météo communautaire permettant de consulter les prévisions de vent, de temps, de vagues et de marées, mais aussi de partager des lieux et échanger avec d'autres utilisateurs. Il s'agissait d'un projet fictif sans public cible défini. ",
-        "goal": "L'objectif principal était d'explorer comment intégrer ces différents éléments météo dans une interface cohérente et interactive. Le livrable final devait être une présentation du branding ainsi qu'un prototype fonctionnel de l'application mobile sur Figma.",
-        "process": "Pour la création de l'identité visuelle, je me suis inspirée des entreprises utilisant des mascottes comme logo, afin d'imaginer un personnage capable d'exprimer différentes émotions selon la météo. Le moodboard a été construit à partir des couleurs typiques des applications météo, puis enrichi avec des déclinaisons de teintes pour donner plus de nuance à l'univers visuel. \n La phase de conception du logo a commencé avec des croquis sur papier. Ensuite, l'essentiel du travail d'idéation s'est poursuivi directement sur Figma, avec plusieurs itérations pour affiner les écrans et les interactions. \n J'ai utilisé Figma comme outil principal. J'ai d'abord mis en place une bibliothèque de composants (CTA, typographie, couleurs, etc.) pour assurer une cohérence visuelle, avant de passer à la réalisation des maquettes. Le prototypage a également été réalisé sur Figma. ",
-        "difficulties": "Le principal défi rencontré a été la gestion du temps, le projet devant être mené à bien en une semaine seulement.",
-        "results": "Je suis très satisfaite du rendu obtenu en si peu de temps. Le branding a reçu de très bons retours, notamment sur l'originalité du logo, et le prototype a été bien accueilli par mes camarades et mon entourage, qui ont apprécié sa fluidité et sa clarté.",
-        "learning": "Windmap m'a permis de mener de A à Z un projet de design d'application mobile, du branding jusqu'au prototypage, en autonomie et dans un délai court. Ce projet m'a permis de consolider les compétences acquises en alternance chez Bruno, notamment en matière de structuration de projet, de hiérarchisation des informations et d'optimisation des parcours utilisateurs.",
-        "remake": "Avec plus de temps, j'aurais aimé développer davantage de fonctionnalités, notamment en ajoutant des écrans pour les favoris, les notifications et d'autres sections du menu, afin de proposer une application plus complète et réaliste."
+    "infos": {
+      "dateStart": "9 décembre 2024",
+      "dateEnd": "13 décembre 2024",
+      "type": "Design d'une application mobile",
+      "context": "Projet individuel en 1ère année de Master CMW en cours de Design interactif",
+      "tools": ["Figma"],
+
+      "category": ["UI Design", "Design System", "Identité visuelle"],
+      "teamSize": 1
+    },
+
+    "links": [
+      {
+        "label": "Figma",
+        "url": "https://www.figma.com/design/OCF79XKxMIqFazR47pKLTr/WINDMAP---Many-Clara?node-id=48-867&t=MdCeQx9GTx9qKcMj-1"
       }
-    }
+    ],
+
+    "content": [
+      {
+        "type": "text",
+        "text": "Ce projet a été réalisé dans le cadre du cours de design graphique et interactif. Le sujet consistait à concevoir une application météo communautaire permettant de consulter les prévisions de vent, de temps, de vagues et de marées, mais aussi de partager des lieux et échanger avec d'autres utilisateurs. Il s'agissait d'un projet fictif sans public cible défini."
+      },
+      {
+        "type": "text",
+        "text": "L'objectif principal était d'explorer comment intégrer ces différents éléments météo dans une interface cohérente et interactive. Le livrable final devait être une présentation du branding ainsi qu'un prototype fonctionnel de l'application mobile sur Figma."
+      },
+      {
+        "type": "text",
+        "text": "Pour la création de l'identité visuelle, je me suis inspirée des entreprises utilisant des mascottes comme logo, afin d'imaginer un personnage capable d'exprimer différentes émotions selon la météo. Le moodboard a été construit à partir des couleurs typiques des applications météo, puis enrichi avec des déclinaisons de teintes pour donner plus de nuance à l'univers visuel."
+      },
+      {
+        "type": "image",
+        "src": "/assets/images/projects/windmap/windmap_guidelines.webp",
+        "alt": "Windmap Identité visuelle Recherche"
+      },
+      {
+        "type": "text",
+        "text": "La phase de conception du logo a commencé avec des croquis sur papier. Ensuite, l'essentiel du travail d'idéation s'est poursuivi directement sur Figma, avec plusieurs itérations pour affiner les écrans et les interactions."
+      },
+      {
+        "type": "text",
+        "text": "J'ai utilisé Figma comme outil principal. J'ai d'abord mis en place une bibliothèque de composants (CTA, typographie, couleurs, etc.) pour assurer une cohérence visuelle, avant de passer à la réalisation des maquettes. Le prototypage a également été réalisé sur Figma."
+      },
+      {
+        "type": "image",
+        "src": "/assets/images/projects/windmap/windmap_design-system.webp",
+        "alt": "Windmap Design System Exemple"
+      },
+      {
+        "type": "text",
+        "text": "Le principal défi rencontré a été la gestion du temps, le projet devant être mené à bien en une semaine seulement. Je suis très satisfaite du rendu obtenu en si peu de temps. Le branding a reçu de très bons retours, notamment sur l'originalité du logo, et le prototype a été bien accueilli par mes camarades et mon entourage, qui ont apprécié sa fluidité et sa clarté."
+      },
+      {
+        "type": "text",
+        "text": "Windmap m'a permis de mener de A à Z un projet de design d'application mobile, du branding jusqu'au prototypage, en autonomie et dans un délai court. Ce projet m'a permis de consolider les compétences acquises en alternance chez Bruno, notamment en matière de structuration de projet, de hiérarchisation des informations et d'optimisation des parcours utilisateurs."
+      },
+      {
+        "type": "text",
+        "text": "Avec plus de temps, j'aurais aimé développer davantage de fonctionnalités, notamment en ajoutant des écrans pour les favoris, les notifications et d'autres sections du menu, afin de proposer une application plus complète et réaliste."
+      }
+    ]
   },
   {
     "id": 5,
@@ -163,28 +271,78 @@
     "cover": "assets/images/projects/edenred/edenred_cover.webp",
     "shortDescription": "Rapport d'audit d'accessibilité pour différentes plateformes de chez Edenred, réalisé avec l'aide de collègues chez Creatiwity.",
 
-    "details": {
-      "dateStart": "2026-01-19",
-      "dateEnd": "2026-03-13",
-      "category": ["Accessibilité"],
-      "type": "Projet professionnel",
-      "teamSize": 1,
-      "tools": ["ARA"],
-      "links": {
-        "figma": "",
-        "github": "",
-        "website": ""
-      },
+    "banner": "assets/images/projects/edenred/edenred_banner.webp",
 
-      "description": {
-        "context": "Lors de mon alternance chez Creatiwity, j'ai eu l'occasion de réaliser un audit d'accessibilité pour 4 plateformes du groupe Edenred. Ces audits d'accessibilité ont été réalisé sur la plateforme ARA (<a href=\"https://ara.numerique.gouv.fr/\" target=\"_blank\" rel=\"noopener\">https://ara.numerique.gouv.fr/</a>) qui se base sur 106 critères de contrôle RGAA afin d'évaluer le niveau de conformité d'un site web.",
-        "goal": "L'objectif principal est d'avoir une déclaration d'accessibilité disponible sur la plateforme à l'issue de l'audit. Cette déclaration comprend entre autre, un état de conformité, un pourcentage des critères conformes, les outils qui ont été utilisés, les pages auditées, ainsi que les potentiels critères qui resteraient non conformes.\n Pour en savoir plus sur la déclaration d'accessibilité : <a href=\"https://accessibilite.numerique.gouv.fr/obligations/declaration-accessibilite/\" target=\"_blank\" rel=\"noopener\">https://accessibilite.numerique.gouv.fr/obligations/declaration-accessibilite/</a>",
-        "process": "Chaque projet s'est déroulé en plusieurs étapes. Dans un premier temps, une réunion est organisée avec le client afin de comprendre le contexte de la plateforme, de définir les pages à auditer et d'organiser le planning. De manière générale, les pages auditées sont la page d'accueil, une page contenant un formulaire (comme une page de connexion ou une page “mon compte” par exemple), une page contenant un tableau de données, ainsi que les éléments transverses comme l'en-tête et le pied de page. \n Ensuite, je réalise un “pré-audit” basé sur les 25 critères RGAA essentiels. Ce pré-audit permet au client d'avoir un premier aperçu du niveau de conformité de la plateforme et de corriger certains problèmes rapidement avant l'audit complet. Une fois les modifications faites et l'audit réalisée, je produis un rapport et un tableau de données contenant le taux de conformité global du site, ainsi que le taux de conformité par critère et par page.\n Enfin, le rapport est présenté aux clients afin d'expliquer les critères non conformes, leur niveau d'impact, et les recommandations à mettre en place.",
-        "difficulties": "Le principal défi pour moi a été d'assimiler les critères RGAA, qui sont nombreux et parfois complexes à interpréter selon les situations. Certains m'étaient déjà familiers, comme ceux relatifs aux textes alternatifs des images, tandis que d'autres, notamment ceux concernant les scripts, m'ont demandé davantage d'efforts de compréhension.\n Pour faire face à cette difficulté, je me suis appuyée sur plusieurs ressources. Tout d'abord, la documentation RGAA et le glossaire m'ont permis de mieux comprendre les critères. J'ai également regardé une vidéo d'un audit réalisé par Mathieu Bouillot, expert en accessibilité, qui m'a permis d'identifier les outils utiles et les tests à réaliser. Enfin, les retours et corrections de mon responsable m'ont aidé à mieux interpréter les critères selon leur contexte.\n Avec l'expérience, j'ai progressivement gagné en rigueur, en méthode et en rapidité, et je me sens désormais bien plus à l'aise pour réaliser des audits d'accessibilité web.",
-        "results": "",
-        "learning": "La réalisation de ces audits d'accessibilité m'a permis d'approfondir mes connaissances dans le domaine de l'accessibilité numérique et de mieux comprendre les enjeux liés à l'inclusion et à l'accès au numérique pour tous. J'ai appris à analyser un site web de manière plus technique et structurée, en prenant en compte la structure du contenu, la navigation au clavier et la compatibilité avec les technologies d'assistance.\n Ce travail m'a également permis de développer une méthodologie de travail rigoureuse, de rédiger des rapports clairs et de présenter des résultats à des clients, ce qui m'a fait progresser à la fois sur le plan technique et sur le plan professionnel.",
-        "remake": "Si je devais refaire ce projet, j'aimerais utiliser d'autres navigateurs que Chrome et Safariet d'autres technologies d'assistance afin d'avoir une vision encore plus complète de l'accessibilité des sites audités.\n À l'avenir, j'aimerais approfondir mes connaissances en matière de bonnes pratiques d'accessibilité, et notamment dans le contexte des applications mobiles."
+    "infos": {
+      "dateStart": "19 janvier 2026",
+      "dateEnd": "13 mars 2026",
+      "type": "Rapport audit accessibilité",
+      "context": "Projet professionnel lors de mon alternance à l'agence Creatiwity",
+      "tools": ["ARA"],
+
+      "category": ["Accessibilité"],
+      "teamSize": 2
+    },
+
+    "content": [
+      {
+        "type": "text",
+        "text": "Lors de mon alternance chez Creatiwity, j'ai eu l'occasion de réaliser un audit d'accessibilité pour 4 plateformes du groupe Edenred. Ces audits d'accessibilité ont été réalisé sur la plateforme ARA qui se base sur 106 critères de contrôle RGAA afin d'évaluer le niveau de conformité d'un site web."
+      },
+      {
+      "type": "link",
+      "text": "Lien vers le site ARA :",
+      "url": "https://ara.numerique.gouv.fr"
+    },
+    {
+        "type": "text",
+        "text": "L'objectif principal est d'avoir une déclaration d'accessibilité disponible sur la plateforme à l'issue de l'audit. Cette déclaration comprend entre autre, un état de conformité, un pourcentage des critères conformes, les outils qui ont été utilisés, les pages auditées, ainsi que les potentiels critères qui resteraient non conformes."
+      },
+      {
+      "type": "link",
+      "text": "Pour en savoir plus sur la déclaration d'accessibilité : ",
+      "url": "https://accessibilite.numerique.gouv.fr/obligations/declaration-accessibilite/"
+    },
+    {
+        "type": "text",
+        "text": "Chaque projet s'est déroulé en plusieurs étapes. Dans un premier temps, une réunion est organisée avec le client afin de comprendre le contexte de la plateforme, de définir les pages à auditer et d'organiser le planning. De manière générale, les pages auditées sont la page d'accueil, une page contenant un formulaire (comme une page de connexion ou une page “mon compte” par exemple), une page contenant un tableau de données, ainsi que les éléments transverses comme l'en-tête et le pied de page."
+      },
+      {
+        "type": "text",
+        "text": "Ensuite, je réalise un “pré-audit” basé sur les 25 critères RGAA essentiels. Ce pré-audit permet au client d'avoir un premier aperçu du niveau de conformité de la plateforme et de corriger certains problèmes rapidement avant l'audit complet. Une fois les modifications faites et l'audit réalisée, je produis un rapport et un tableau de données contenant le taux de conformité global du site, ainsi que le taux de conformité par critère et par page."
+      },
+      {
+        "type": "text",
+        "text": "Enfin, le rapport est présenté aux clients afin d'expliquer les critères non conformes, leur niveau d'impact, et les recommandations à mettre en place."
+      },
+      {
+        "type": "text",
+        "text": "Le principal défi pour moi a été d'assimiler les critères RGAA, qui sont nombreux et parfois complexes à interpréter selon les situations. Certains m'étaient déjà familiers, comme ceux relatifs aux textes alternatifs des images, tandis que d'autres, notamment ceux concernant les scripts, m'ont demandé davantage d'efforts de compréhension."
+      },
+      {
+        "type": "text",
+        "text": "Pour faire face à cette difficulté, je me suis appuyée sur plusieurs ressources. Tout d'abord, la documentation RGAA et le glossaire m'ont permis de mieux comprendre les critères. J'ai également regardé une vidéo d'un audit réalisé par Mathieu Bouillot, expert en accessibilité, qui m'a permis d'identifier les outils utiles et les tests à réaliser. Enfin, les retours et corrections de mon responsable m'ont aidé à mieux interpréter les critères selon leur contexte."
+      },
+      {
+        "type": "text",
+        "text": "Avec l'expérience, j'ai progressivement gagné en rigueur, en méthode et en rapidité, et je me sens désormais bien plus à l'aise pour réaliser des audits d'accessibilité web."
+      },
+      {
+        "type": "text",
+        "text": "La réalisation de ces audits d'accessibilité m'a permis d'approfondir mes connaissances dans le domaine de l'accessibilité numérique et de mieux comprendre les enjeux liés à l'inclusion et à l'accès au numérique pour tous. J'ai appris à analyser un site web de manière plus technique et structurée, en prenant en compte la structure du contenu, la navigation au clavier et la compatibilité avec les technologies d'assistance."
+      },
+      {
+        "type": "text",
+        "text": "Ce travail m'a également permis de développer une méthodologie de travail rigoureuse, de rédiger des rapports clairs et de présenter des résultats à des clients, ce qui m'a fait progresser à la fois sur le plan technique et sur le plan professionnel."
+      },
+      {
+        "type": "text",
+        "text": "Si je devais refaire ce projet, j'aimerais utiliser d'autres navigateurs que Chrome et Safariet d'autres technologies d'assistance afin d'avoir une vision encore plus complète de l'accessibilité des sites audités."
+      },
+      {
+        "type": "text",
+        "text": "À l'avenir, j'aimerais approfondir mes connaissances en matière de bonnes pratiques d'accessibilité, et notamment dans le contexte des applications mobiles."
       }
-    }
+    ]
   }
 ]
