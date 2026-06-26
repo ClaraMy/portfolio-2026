@@ -23,7 +23,7 @@ buttons.forEach(function (button) {
 
 // Load Projects
 async function loadProjects() {
-  const response = await fetch("./data/projects.json");
+  const response = await fetch("./json/projects.json");
   const projects = await response.json();
 
   projects.reverse();
@@ -62,7 +62,7 @@ loadProjects();
 
 // Load Experiences
 async function loadExperiences() {
-  const response = await fetch("./data/experiences.json");
+  const response = await fetch("./json/experiences.json");
   const experiences = await response.json();
 
   const experiencesContainer = document.querySelector(".experiences-container");
@@ -91,7 +91,7 @@ loadExperiences();
 
 // Load Certifications
 async function loadCertifications() {
-  const response = await fetch("./data/certifications.json");
+  const response = await fetch("./json/certifications.json");
   const certifications = await response.json();
 
   const certificationsContainer = document.querySelector(

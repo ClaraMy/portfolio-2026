@@ -5,29 +5,64 @@
     "cover": "assets/images/projects/abbey-road-studios/abbey-road-studio_cover.webp",
     "shortDescription": "Campagne de communication globale et institutionnelle fictive sur les studios Abbey Road à Londres, réalisée en duo.",
 
-    "details": {
-      "dateStart": "2022-10-07",
-      "dateEnd": "2022-11-15",
-      "category": ["Identité visuelle", "Design graphique", "Communication"],
-      "type": "Projet scolaire",
-      "teamSize": 2,
+    "infos": {
+      "dateStart": "7 octobre 2022",
+      "dateEnd": "15 novembre 2022",
+      "type": "Campagne de communication",
+      "context": "Projet en binôme en 2ème année de BUT MMI en cours de Création & Design interactif",
       "tools": ["Figma", "Photoshop"],
-      "links": {
-        "figma": "https://www.figma.com/design/NhWdAqUcycZiZEAzlOZw2e/ABBEY-ROAD-STUDIO---Campagne-institutionnelle?node-id=0-1",
-        "github": "",
-        "website": ""
-      },
 
-      "description": {
-        "context": "Ce projet s'nscrit dans le cours de Création & Design interactif où nous devions réaliser une campagne de communication globale et institutionnelle sur un lieu culturel de Londres.",
-        "goal": "Le but de ce projet était de créer une campagne de communication globale et institutionnelle sur un lieu culturel de Londres, en respectant les bonnes pratiques d'accessibilité web.",
-        "process": "Nous avons commencé par faire des recherches sur le lieu culturel choisi, puis nous avons défini une stratégie de communication et créé des maquettes pour différents supports (site web, affiches, réseaux sociaux). Nous avons ensuite testé l'accessibilité de nos maquettes et apporté les modifications nécessaires pour améliorer l'expérience utilisateur.",
-        "difficulties": "",
-        "results": "",
-        "learning": "Ce projet m'a permis de mettre en pratique mes compétences en design et en accessibilité web, tout en travaillant en équipe. J'ai appris à prendre en compte les besoins des utilisateurs et à créer des interfaces accessibles et inclusives.",
-        "remake": ""
+      "category": ["Identité visuelle", "Design graphique", "Communication"],
+      "teamSize": 2
+    },
+
+    "links": {
+      "figma": "https://www.figma.com/design/NhWdAqUcycZiZEAzlOZw2e/ABBEY-ROAD-STUDIO---Campagne-institutionnelle?node-id=0-1",
+      "github": "",
+      "website": ""
+    },
+
+    "content": [
+      {
+        "type": "text",
+        "text": "Ce projet s'nscrit dans le cours de Création & Design interactif où nous devions réaliser une campagne de communication globale et institutionnelle sur un lieu culturel de Londres."
+      },
+      {
+        "type": "list",
+        "text": "La campagne devait se décliner sous différents formats :",
+        "items": [
+          "une affiche d'abribus",
+          "3 bannières web avec différentes dimensions",
+          "ainsi qu'une maquette de site web adaptée pour mobile, tablette et desktop."
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Tout d'abord, nous avons recherché un lieu culturel emblématique à Londres, ce qui nous a permis de découvrir la ville avant même de nous y rendre. Ainsi, en tant qu'amateurs de musique, mon camarade et moi-même avons immédiatement opté pour l'iconique Abbey Road Studio."
+      },
+      {
+        "type": "image",
+        "src": "/assets/images/projects/abbey-road-studios/abbey-road-studios_place.webp",
+        "alt": "Abbey Road Studios Photo"
+      },
+      {
+        "type": "text",
+        "text": "Après avoir trouvé le lieu, nous avons élaboré un moodboard, comprenant les couleurs, les éléments d'illustration, ainsi que le ton utilisé pour cette campagne. L'idée principale derrière la campagne est d'interpeller la cible à travers l'anonymisation ironique et quelque peu brutale des artistes qui ont enregistré au studio."
+      },
+      {
+        "type": "image",
+        "src": "/assets/images/projects/abbey-road-studios/abbey-road-studios_moodboard.webp",
+        "alt": "Abbey Road Studios Moodboard"
+      },
+      {
+        "type": "text",
+        "text": "Le contraste marquant entre le noir et le blanc ainsi que le rouge attirent l'oeil, tandis que l'absence de majuscules donne une impression de désinvolture. Le motif du passage clouté rappelle la couverture de l'album Abbey Road des Beatles, une étape critique de l'histoire du studio."
+      },
+      {
+        "type": "text",
+        "text": "Ce projet m'a appris à adapter une idée initiale sur différents formats et supports de communication. Je suis particulièrement fière de notre travail sur ce projet et je suis satisfaite du résultat que nous avons obtenu dans le temps imparti."
       }
-    }
+    ]
   },
   {
     "id": 2,
