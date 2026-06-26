@@ -178,7 +178,7 @@ nav {
 .overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0, 0, 0, 0.4);
   opacity: 0;
   visibility: hidden;
   transition: 0.3s;
@@ -306,11 +306,20 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  overflow: hidden;
 }
 
 .project-card img {
   width: 100%;
   height: auto;
+  transition:
+    transform 0.3s ease,
+    filter 0.3s ease;
+}
+
+.project-card:hover img {
+  filter: brightness(0.85);
+  transform: scale(1.03);
 }
 
 .project-information {
