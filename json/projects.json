@@ -99,6 +99,10 @@
         "text": "Dans le cadre du cours de Product Design durant ma deuxième année en BUT MMI, j'ai réalisé une refonte de la plateforme Prime Video avec trois autres camarades."
       },
       {
+        "type": "text",
+        "text": "Nous avons commencé par écrire un guide pour mener des entretiens à notre cible d'utilisateurs : les jeunes adultes, adultes et la famille. Nous avons ainsi pu créer un persona détaillé et élaborer des parcours utilisateur."
+      },
+      {
         "type": "image",
         "src": "/assets/images/projects/prime-video/prime-video_persona.webp",
         "alt": "Prime Video Persona"
