@@ -81,6 +81,10 @@ body {
   padding: 0;
 }
 
+body.menu-open {
+  overflow: hidden;
+}
+
 p {
   line-height: 1.5;
   margin: 0;
@@ -157,6 +161,73 @@ nav {
 
 .logo a {
   text-decoration: none;
+}
+
+/* Burger Menu */
+
+.burger-menu {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Sidepanel */
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+  z-index: 99999;
+}
+
+.overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.side-panel {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 80vw;
+  max-width: 80%;
+  height: 100vh;
+  background: var(--color-background-primary);
+  padding: 2rem;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  z-index: 100000;
+}
+
+.side-panel.active {
+  transform: translateX(0);
+}
+
+.button-close {
+  align-self: flex-end;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.side-panel ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.side-panel a {
+  text-decoration: none;
+  font-size: 1.5rem;
 }
 
 .nav-links {
@@ -514,6 +585,14 @@ footer {
     padding: 1.5rem;
   }
 
+  .burger-menu {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
   .divider-container {
     padding: 0 1.5rem;
   }
@@ -523,7 +602,7 @@ footer {
   }
 
   .data-section {
-    padding: 3rem 1.5rem;
+    padding: 5rem 1.5rem;
   }
 
   .projects-container {

@@ -1,3 +1,29 @@
+// Sidepanel Mobile
+const burger = document.querySelector(".burger-menu");
+const sidePanel = document.querySelector(".side-panel");
+const overlay = document.querySelector(".overlay");
+const closeBtn = document.querySelector(".button-close");
+
+function openMenu() {
+  sidePanel.classList.add("active");
+  overlay.classList.add("active");
+  document.body.classList.add("menu-open");
+}
+
+function closeMenu() {
+  sidePanel.classList.remove("active");
+  overlay.classList.remove("active");
+  document.body.classList.remove("menu-open");
+}
+
+burger.addEventListener("click", openMenu);
+closeBtn.addEventListener("click", closeMenu);
+overlay.addEventListener("click", closeMenu);
+
+document.querySelectorAll(".side-panel a").forEach(link => {
+  link.addEventListener("click", closeMenu);
+});
+
 // Load Projects
 async function loadProjects() {
   const response = await fetch("./json/projects.json");
