@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Abbey Road Studio",
-    "cover": "assets/images/projects/abbey-road-studio_cover.webp",
+    "cover": "assets/images/projects/abbey-road-studios/abbey-road-studio_cover.webp",
     "shortDescription": "Campagne de communication globale et institutionnelle fictive sur les studios Abbey Road à Londres, réalisée en duo.",
 
     "details": {
@@ -32,7 +32,7 @@
   {
     "id": 2,
     "title": "Prime Video",
-    "cover": "assets/images/projects/prime-video_cover.webp",
+    "cover": "assets/images/projects/prime-video/prime-video_cover.webp",
     "shortDescription": "Refonte fictive de l'expérience utilisateur de la plateforme Prime Video sur desktop, réalisée en compagnie de 3 autres étudiants.",
 
     "details": {
@@ -62,7 +62,7 @@
   {
     "id": 3,
     "title": "Primary",
-    "cover": "assets/images/projects/primary_cover.webp",
+    "cover": "assets/images/projects/primary/primary_cover.webp",
     "shortDescription": "Design de l'application mobile de Primary, une entreprise qui conçoit des cabinets médicaux, réalisé avec mes collègues de chez Bruno.",
 
     "details": {
@@ -92,7 +92,7 @@
   {
     "id": 4,
     "title": "Windmap",
-    "cover": "assets/images/projects/windmap_cover.webp",
+    "cover": "assets/images/projects/windmap/windmap_cover.webp",
     "shortDescription": "Identité visuelle et design d'une application mobile fictive de météo communautaire, réalisée avec moi-même.",
 
     "details": {
@@ -122,7 +122,7 @@
   {
     "id": 5,
     "title": "Edenred",
-    "cover": "assets/images/projects/edenred_cover.webp",
+    "cover": "assets/images/projects/edenred/edenred_cover.webp",
     "shortDescription": "Rapport d'audit d'accessibilité pour différentes plateformes de chez Edenred, réalisé avec l'aide de collègues chez Creatiwity.",
 
     "details": {
