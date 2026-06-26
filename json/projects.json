@@ -16,11 +16,12 @@
       "teamSize": 2
     },
 
-    "links": {
-      "figma": "https://www.figma.com/design/NhWdAqUcycZiZEAzlOZw2e/ABBEY-ROAD-STUDIO---Campagne-institutionnelle?node-id=0-1",
-      "github": "",
-      "website": ""
-    },
+    "links": [
+      {
+        "label": "Figma",
+        "url": "https://www.figma.com/design/NhWdAqUcycZiZEAzlOZw2e/ABBEY-ROAD-STUDIO---Campagne-institutionnelle?node-id=0-1"
+      }
+    ],
 
     "content": [
       {
