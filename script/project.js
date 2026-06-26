@@ -17,6 +17,7 @@ function showProject(project) {
 
   // show information
   projectInfoText.innerHTML = `
+        <p><span class="highlight">Nom :</span> ${project.title}</p>
         <p><span class="highlight">Date :</span> du ${project.infos.dateStart} au ${project.infos.dateEnd}</p>
         <p><span class="highlight">Type :</span> ${project.infos.type}</p>
         <p><span class="highlight">Contexte :</span> ${project.infos.context}</p>
