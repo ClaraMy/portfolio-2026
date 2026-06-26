@@ -19,3 +19,34 @@
 .project-hero img {
     width: 100%;
 }
+
+/* Content */
+.project-content {
+    display: flex;
+    padding: 5rem 7.25rem;
+    gap:2.5rem;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    width: 30%;
+}
+
+.project-info-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.project-description {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    width: 65%;
+}
+
+.project-description img {
+    width: 100%;
+}
