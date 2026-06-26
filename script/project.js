@@ -74,7 +74,14 @@ function showProject(project) {
       a.href = block.url;
       a.target = "_blank";
       a.rel = "noopener";
-      a.textContent = block.url;
+
+      a.append(block.url);
+
+      const srOnly = document.createElement("span");
+      srOnly.classList.add("visually-hidden");
+      srOnly.textContent = " (ouvre dans une nouvelle fenêtre)";
+
+      a.appendChild(srOnly);
 
       section.appendChild(a);
     }

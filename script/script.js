@@ -112,6 +112,9 @@ async function loadCertifications() {
                 class="certification-link"
             >
                 Lien vers la certification
+                <span class="visually-hidden">
+                (ouvre dans une nouvelle fenêtre)</span
+              >
             </a>
         `;
 
