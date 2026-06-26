@@ -1,6 +1,8 @@
 // set up data
 const projectTitle = document.querySelector("#project-title");
-const projectShortDescription = document.querySelector("#project-short-description");
+const projectShortDescription = document.querySelector(
+  "#project-short-description",
+);
 const projectBanner = document.querySelector("#project-banner");
 const projectContent = document.querySelector(".project-content");
 const projectInfoText = document.querySelector(".project-info-text");
@@ -58,6 +60,22 @@ function showProject(project) {
       section.appendChild(img);
     }
 
+    if (block.type === "link") {
+      if (block.text) {
+        const p = document.createElement("p");
+        p.textContent = block.text;
+        section.appendChild(p);
+      }
+
+      const a = document.createElement("a");
+      a.href = block.url;
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.textContent = block.url;
+      
+      section.appendChild(a);
+    }
+
     if (block.type === "list") {
       if (block.text) {
         const p = document.createElement("p");
@@ -73,7 +91,7 @@ function showProject(project) {
         ul.appendChild(li);
       });
 
-      section.appendChild(ul);      
+      section.appendChild(ul);
     }
 
     projectContent.appendChild(section);
