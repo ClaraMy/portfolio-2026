@@ -101,6 +101,7 @@ ul {
 
 a {
   color: var(--color-text-primary);
+  overflow-wrap: break-word;
 }
 
 .highlight {
