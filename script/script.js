@@ -51,6 +51,9 @@ async function loadProjects() {
               >
                   Voir les détails du projet
               </button>
+              <a href="project.html?id=${project.id}">
+                  En savoir plus
+              </a>
             </div>
         `;
 

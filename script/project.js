@@ -13,7 +13,7 @@ function showProject(project) {
   projectBanner.src = project.image;
   projectBanner.alt = project.title;
 
-  //   show information
+  // show information
   projectInfoText.innerHTML = `
         <p><span class="highlight">Date :</span> du ${project.infos.dateStart} au ${project.infos.dateEnd}</p>
         <p><span class="highlight">Type :</span> ${project.infos.type}</p>
@@ -39,7 +39,7 @@ function showProject(project) {
     });
   }
 
-  //   show content
+  // show content
   project.content.forEach((block) => {
     const section = document.createElement("div");
     section.classList.add("project-section");
@@ -79,3 +79,22 @@ function showProject(project) {
     projectContent.appendChild(section);
   });
 }
+
+async function loadProject() {
+  const params = new URLSearchParams(window.location.search);
+  const id = Number(params.get("id"));
+
+  const response = await fetch("./json/projects.json");
+  const projects = await response.json();
+
+  const project = projects.find((project) => project.id === id);
+
+  if (!project) {
+    projectContent.innerHTML = "<p>Projet introuvable.</p>";
+    return;
+  }
+
+  showProject(project);
+}
+
+loadProject();
