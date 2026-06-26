@@ -204,7 +204,7 @@
         "type": "text",
         "text": "Ce projet m'a permis de développer mes compétences dans la conception d'interfaces mobiles et dans l'organisation du travail sur Figma. J'ai appris à mieux structurer mon espace de travail sur Figma ce qui a permis de faciliter la collaboration avec les autres membres de l'équipe. De plus, j'ai acquis une expérience dans la conception de produits mobiles, qui m'a permis de comprendre les spécificités et les bonnes pratiques de conception pour le mobile."
       },
-       {
+      {
         "type": "text",
         "text": "Si ce projet était à refaire, j'aurais aimé réaliser des prototypes. Cela aurait permis au client de mieux visualiser le rendu final de l'application et de mieux comprendre les interactions et les fonctionnalités de celle-ci."
       }
@@ -310,20 +310,20 @@
         "text": "Lors de mon alternance chez Creatiwity, j'ai eu l'occasion de réaliser un audit d'accessibilité pour 4 plateformes du groupe Edenred. Ces audits d'accessibilité ont été réalisé sur la plateforme ARA qui se base sur 106 critères de contrôle RGAA afin d'évaluer le niveau de conformité d'un site web."
       },
       {
-      "type": "link",
-      "text": "Lien vers le site ARA :",
-      "url": "https://ara.numerique.gouv.fr"
-    },
-    {
+        "type": "link",
+        "text": "Lien vers le site ARA :",
+        "url": "https://ara.numerique.gouv.fr"
+      },
+      {
         "type": "text",
         "text": "L'objectif principal est d'avoir une déclaration d'accessibilité disponible sur la plateforme à l'issue de l'audit. Cette déclaration comprend entre autre, un état de conformité, un pourcentage des critères conformes, les outils qui ont été utilisés, les pages auditées, ainsi que les potentiels critères qui resteraient non conformes."
       },
       {
-      "type": "link",
-      "text": "Pour en savoir plus sur la déclaration d'accessibilité : ",
-      "url": "https://accessibilite.numerique.gouv.fr/obligations/declaration-accessibilite/"
-    },
-    {
+        "type": "link",
+        "text": "Pour en savoir plus sur la déclaration d'accessibilité : ",
+        "url": "https://accessibilite.numerique.gouv.fr/obligations/declaration-accessibilite/"
+      },
+      {
         "type": "text",
         "text": "Chaque projet s'est déroulé en plusieurs étapes. Dans un premier temps, une réunion est organisée avec le client afin de comprendre le contexte de la plateforme, de définir les pages à auditer et d'organiser le planning. De manière générale, les pages auditées sont la page d'accueil, une page contenant un formulaire (comme une page de connexion ou une page “mon compte” par exemple), une page contenant un tableau de données, ainsi que les éléments transverses comme l'en-tête et le pied de page."
       },

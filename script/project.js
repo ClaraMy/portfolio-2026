@@ -29,7 +29,7 @@ function showProject(project) {
     { label: "Logiciels", value: project.infos.tools.join(", ") },
   ];
 
-  infos.forEach(info => {
+  infos.forEach((info) => {
     const p = document.createElement("p");
     const span = document.createElement("span");
     span.classList.add("highlight");
@@ -38,7 +38,7 @@ function showProject(project) {
     p.append(info.value);
 
     projectInfoText.appendChild(p);
-});
+  });
 
   // show links
   if (project.links) {
