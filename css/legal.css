@@ -1,0 +1,10 @@
+.hero-legal {
+  height: 50vh;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 1.5rem 7.25rem 5rem;
+}

@@ -259,10 +259,6 @@ nav {
   text-align: center;
 }
 
-.hero-legal {
-  height: 50vh;
-}
-
 .hero img {
   width: 160px;
 }
@@ -276,13 +272,6 @@ nav {
 
 .data-section {
   padding: 5rem 7.25rem;
-}
-
-.text-container {
-  display: flex;
-  flex-direction: column;
-  gap: 2.5rem;
-  padding: 1.5rem 7.25rem 5rem;
 }
 
 .divider-container {
