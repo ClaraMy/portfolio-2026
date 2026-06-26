@@ -90,6 +90,10 @@
       {
         "label": "Figma",
         "url": "https://www.figma.com/design/8gLKvast8qZP4dLP3xhxzK/UX---Prime-Video?node-id=1-2&t=ve9JFjZWik8Huiwc-1"
+      },
+      {
+        "label": "vers le site du Festival MMI 2023",
+        "url": "https://2023.festivalmmi.fr/laureats.276_dcp.html"
       }
     ],
 
@@ -132,6 +136,10 @@
       {
         "type": "text",
         "text": "Si c'était à refaire, j'aurais consacré davantage de temps pour améliorer les prototypes et rendre la présentation du Figma plus organisée. De plus, j'aurais souhaité mener davantage d'entretiens avec différents profils d'utilisateurs."
+      },
+      {
+        "type": "text",
+        "text": "Ce projet s'est classé en seconde position dans la catégorie « UX et parcours utilisateur » lors du Festival MMI 2023, où sont évalués les projets des étudiants de toutes les formations MMI."
       }
     ]
   },
@@ -162,6 +170,10 @@
       {
         "label": "du site",
         "url": "https://www.helloprimary.care/"
+      },
+      {
+        "label": "vers l'application sur Google Play",
+        "url": "https://play.google.com/store/apps/details?id=care.helloprimary.app&hl=fr&pli=1"
       }
     ],
 
@@ -219,8 +231,12 @@
 
     "links": [
       {
-        "label": "Figma",
+        "label": "vers le projet Figma",
         "url": "https://www.figma.com/design/OCF79XKxMIqFazR47pKLTr/WINDMAP---Many-Clara?node-id=48-867&t=MdCeQx9GTx9qKcMj-1"
+      },
+      {
+        "label": "vers le prototype Figma",
+        "url": "https://www.figma.com/proto/OCF79XKxMIqFazR47pKLTr/WINDMAP---Many-Clara?content-scaling=fixed&kind=proto&node-id=112-1362&page-id=48%3A867&scaling=scale-down&starting-point-node-id=91%3A1848"
       }
     ],
 
