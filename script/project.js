@@ -27,18 +27,20 @@ function showProject(project) {
   // show links
   if (project.links) {
     project.links.forEach((link) => {
-      projectLinks.innerHTML = `
-        <a
-            href="${link.url}"
-            target="_blank"
-            rel="noopener"
-        >
-            Lien ${link.label}
-            <span class="visually-hidden">
-                (ouvre dans une nouvelle fenêtre)
-            </span>
-        </a>
-    `;
+      const a = document.createElement("a");
+      a.href = link.url;
+      a.target = "_blank";
+      a.rel = "noopener";
+
+      a.append(`Lien ${link.label}`);
+
+      const srOnly = document.createElement("span");
+      srOnly.classList.add("visually-hidden");
+      srOnly.textContent = " (ouvre dans une nouvelle fenêtre)";
+
+      a.appendChild(srOnly);
+
+      projectLinks.appendChild(a);
     });
   }
 
