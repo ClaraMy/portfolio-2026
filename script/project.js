@@ -97,6 +97,11 @@ function showProject(project) {
 
     projectDescription.appendChild(section);
   });
+
+  const linkMore = document.createElement("a");
+  linkMore.href = "index.html#projects-section";
+  linkMore.textContent = "Voir d'autres projets";
+  projectDescription.appendChild(linkMore);
 }
 
 async function loadProject() {
